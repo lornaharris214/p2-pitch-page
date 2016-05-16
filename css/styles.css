@@ -145,6 +145,13 @@
             padding-left: 25px;
         }
 
+        .email {
+            padding-left: 30%;
+        }
+        .email:hover {
+            padding-left: 32%;
+        }
+
         a:link, a:visited {
                 text-decoration: none;
                 font-family: 'Alex Brush', cursive;
