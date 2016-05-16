@@ -31,6 +31,10 @@
 
 /* Icons */
 
+        .logo {
+            width: 75px;
+            padding-top: 10px;
+        }
 
 /* Navbar */
         .navbar {
@@ -108,15 +112,18 @@
             background: url('../img/photoofself.png');
             background-size: cover;
             background-position: center;
+            border: 1px solid #00A8CC;
             border-radius: 0 50px 0 50px;
             width: 30%;
             height: 80%;
             margin-right: 5%;
         }
         .Box2 {
-            background: blue;
+            color: white;
             width: 50%;
             height: 80%;
+            border: 1px solid #00A8CC;
+            border-radius: 0 50px 0 50px;
         }
         .Box2 p {
             margin-top: -50px;
@@ -126,6 +133,30 @@
             padding: 0px 30px 0px 30px;
         }
 
+/* Links */
+
+        .links {
+            list-style: none;
+            padding-left: 20%;
+            display: inline-flex;
+        }
+        
+        li {
+            padding-left: 25px;
+        }
+
+        a:link, a:visited {
+                text-decoration: none;
+                font-family: 'Alex Brush', cursive;
+                font-size: 2em;
+                vertical-align: center;
+                color: #00A8CC;
+            }
+
+        a:hover {
+            color: rgba(255, 255, 255, 0.25);
+            padding: 10px;
+        }
 
 /* Footer */
         footer {
@@ -145,11 +176,6 @@
         .char1 { 
             font-size: 2.5em;
         }
-        .char11 {
-            font-size: 2.25em;
-        }
-
-
 /********************
 MEDIA QUERIES
 *******************/
